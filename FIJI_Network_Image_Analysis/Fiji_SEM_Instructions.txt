@@ -1,0 +1,7 @@
+Instructions for Usage:
+
+1. Open the SEM image in Fiji
+2. Go to Plugins, Macros, Run, and run the Fiji in this folder
+3. Train the Weka classifier by selecting the two classes (fibers, background)
+4. Adjust the threshold until the fibers are selected
+5. Look at your output files
