@@ -1,7 +1,16 @@
 Instructions for Usage:
 
-1. Open the SEM image in Fiji
+SEM SKELETONIZE
+
+1. Open the cropped SEM image in Fiji
 2. Go to Plugins, Macros, Run, and run the Fiji in this folder
-3. Train the Weka classifier by selecting the two classes (fibers, background)
-4. Adjust the threshold until the fibers are selected
-5. Look at your output files
+3. Manually Adjust Threshold so that the desired fibers are highlighted and selected
+4. Go to Plugins and Run Skeletonize
+5. Run Analyze Skeleton and save your output files as your experimental data
+6. Go to the Convert Skeleton folder and run the python script to get your network nodes and vertices input files for the main simulation 
+
+
+SEM PORE ANALYSIS
+
+1. Open Fiji and Run the Macro for either the Young or Old Mouse Images
+2. Run SEM_plot.py on the saved csv file of the pore information in order to generate the desired plots
